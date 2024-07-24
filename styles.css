@@ -1,5 +1,11 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title {
@@ -8,4 +14,25 @@ body {
 
 .main-img {
     box-shadow: 0px 2px 5px lightgray;
+    width: 400px;
+}
+
+.cover-layout p {
+    color: #565959;
+}
+
+.author a {
+    color: #007185;
+}
+
+.ratings-img {
+    width: 120px;
+}
+
+.bold-font {
+    font-weight: bolder;
+}
+
+.font-spacing {
+    line-height: 20px;
 }
